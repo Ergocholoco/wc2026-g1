@@ -40,7 +40,10 @@ export default function HowToPlay() {
       <section style={sectionStyle}>
         <h2 className="condensed" style={headingStyle}>Bonus Picks</h2>
         <p style={textStyle}>
-          Under the <strong style={{ color: 'var(--text)' }}>★ Bonus</strong> tab you'll find tournament-wide picks worth extra points. These are scored using the actual tournament outcome (including ET and penalties for advancement).
+          Under the <strong style={{ color: 'var(--text)' }}>★ Bonus</strong> tab you'll find tournament-wide picks worth extra points. These are about <strong style={{ color: 'var(--text)' }}>who advances</strong>, not individual match scores — so the 90-minute rule does not apply here.
+        </p>
+        <p style={{ ...textStyle, marginTop: '0.5rem' }}>
+          If you picked Brazil as a Semifinalist and they squeeze through on a penalty shootout, that bonus pick is still credited. It doesn't matter how they got there — only that they did.
         </p>
         <p style={{ ...textStyle, marginTop: '0.5rem' }}>
           Bonus picks lock before the first match of each relevant round — group picks lock when the group stage begins, knockout picks lock before the Round of 16 starts, etc.
@@ -79,7 +82,7 @@ export default function HowToPlay() {
           <li>Fill in bonus picks early — they lock before you expect.</li>
           <li>Don't forget the 3rd Place match tab for that extra prediction.</li>
           <li>Exact score picks are high-risk, high-reward — worth targeting in low-scoring knockout games.</li>
-          <li>Group stage picks are the bulk of the points: 48 matches × up to 5 pts each.</li>
+          <li>Group stage picks are the bulk of the points: 72 matches × up to 5 pts each.</li>
         </ul>
       </section>
     </div>
